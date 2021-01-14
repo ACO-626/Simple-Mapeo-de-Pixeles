@@ -16,5 +16,14 @@ namespace Simple_Mapeo_de_Pixeles
         {
             InitializeComponent();
         }
+
+        private void btnImportar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            if(ofd.ShowDialog()==DialogResult.OK)
+            {
+
+            }
+        }
     }
 }

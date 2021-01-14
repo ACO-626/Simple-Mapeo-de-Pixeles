@@ -46,6 +46,7 @@
             this.btnImportar.TabIndex = 0;
             this.btnImportar.Text = "Importar";
             this.btnImportar.UseVisualStyleBackColor = true;
+            this.btnImportar.Click += new System.EventHandler(this.btnImportar_Click);
             // 
             // button2
             // 
